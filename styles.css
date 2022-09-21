@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background: black;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 500px;
+    width: 800px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container h1{
+    font-family: Arial;
+    color: white;
+    margin: 20px;
+  }
+  
+  .sumandos{
+    display: flex;
+    align-items: center;
+  }
+  #sum1, #sum2{
+    margin: 15px;
+    flex-direction: row;
+    font-size: 50px;
+
+    height: 150px;
+    width: 150px;
+
+    letter-spacing: 3px;
+    text-align: center;
+    -webkit-appearance: none;
+
+  }
+
+  .sumandos p{
+    color: aliceblue;
+    font-size: 50px;
+  }
+
+  #btnCalcular{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: gray;
+    transition: .7s;
+    color: aliceblue;
+    font-weight: bold;
+
+  }
+  #btnCalcular:hover{
+    background-color: aliceblue;
+    transition: .7s;
+    color: black;
+
+ 
+  }
+
+
+  .result{
+    background-color: white;
+    height:500px;
+    width: 500px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    
+    font-family: Cambria;
+    
+    margin: 30px;
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
